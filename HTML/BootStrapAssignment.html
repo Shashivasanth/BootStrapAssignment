@@ -1,0 +1,268 @@
+<!---  Bootstrap Assignment -->
+<!-- Website for Tourism -->
+<!--- Shashi Vasanth -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>World Best Tourism</title>
+</head>
+
+<body>
+    <div class="container" id="main" style="padding:0px">
+        <nav class="navbar navbar-default my_nav" style="background-image:url(../Images/navbg.jpg)" style="padding:0px" >
+            <div class="navbar-header" style="padding:0px">
+                <a class="navbar-brand" href="#">
+                    <img src="../Images/Tour3.jpg" width="100px" height="70px">
+
+            </div>
+            <div class="panel  ">
+                <ul class="nav navbar-nav navbar-right nav_right">
+                  <li style="font-style:bold">Travel + Lesisure</li>
+                  <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <strong class=""></strong></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#"><span class="glyphicon glyphicon-plus"></span> Add account</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="glyphicon glyphicon-wrench"></span> Settings </a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="glyphicon glyphicon-off"></span> Sign Out </a>
+                            </li>
+                        </ul>
+                      </li>
+                        <li class="dropdown">
+                                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="glyphicon glyphicon-home"></span> HOME <strong class="caret"></strong></a>
+                              <ul class="dropdown-menu">
+                                  <li>
+                                      <a href="#"></span> At A Glance  on Seasons</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">People and Life </a>
+                                  </li>
+                                  <!-- <li class="divider"></li> -->
+                                  <li>
+                                      <a href="#"> History </a>
+                                  </li>
+                              </ul>
+                              </li>
+                    <li><a href="#">DESTINATIONS</a> </li>
+                    <li><a href="#">PORTFOLIO</a>
+                    </li>
+                    <li><a href="#">BLOG</a>
+                    </li>
+                    <li style="padding-right:30px"><a href="#">BOOKING</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+      <!---
+      Jumbotron example
+    -->
+        <div class="jumbotron" style="padding-right:40px;padding-left:40px">
+            <h1 id="jumbo">Worlds Most Visited Tourist Attractions</h1>
+            <p id="ani">Culture / Design | Landmarks / Monuments.</p>
+        </div>
+
+
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="../Images/pulpitrock.jpg" alt="Cinque Terre" width="350" height="400">
+            </div>
+            <div class="col-sm-4">
+                <img src="../Images/waterfalls.jpg" alt="Cinque Terre" width="350" height="400">
+            </div>
+            <div class="col-sm-4">
+                <img src="../Images/cinqueterre.jpg" alt="Cinque Terre" width="350" height="400">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+
+                <p>Pulpit Rock: A famous tourist attraction in Forsand, Ryfylke, Norway.</p>
+                </a>
+            </div>
+            <div class="col-md-4">
+
+                <p>Moustiers-Sainte-Marie: Considered as one of the "most beautiful villages of France".</p>
+                </a>
+            </div>
+            <div class="col-md-4">
+
+                <p>The Cinque Terre: A rugged portion of coast in the Liguria region of Italy.</p>
+                </a>
+            </div>
+        </div>
+
+        <!--
+        Carasouel example
+      -->
+        <div class="jumbotron">
+            <center>
+                <h4 id="retro">Easy Payment Options.</h4>
+                <p>Choose from a wide array of destinations/hotels/flights for your best suited vacations.</p>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="../Images/LakeOntario.jpg" alt="Chania" width="1200" height="1200">
+                        </div>
+
+                        <div class="item">
+                            <img src="../Images/sunrise.jpg" alt="Chania" width="1200" height="1200">
+                        </div>
+
+                        <div class="item">
+                            <img src="../Images/Kingston.jpg" alt="Flower" width="1200" height="1200">
+                        </div>
+
+                        <div class="item">
+                            <img src="../Images/picnic_spots.jpg" alt="Flower" width="1200" height="1200">
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <H1>1.</H1>
+                        <p  class ="Jfont">Choose a Destination.</p>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <H1>2.</H1>
+                        <p class ="Jfont">Choose the hotels / flights .</p>
+
+                    </div>
+                    <div class="col-md-4">
+                        <H1>3.</H1>
+                        <p class ="Jfont">Make the secure Payment, Njoy the vacation.</p>
+
+                        </a>
+                    </div>
+            </center>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="panel">
+                        <img src="../Images/north-kerala-delight.jpg" alt="Flower" width="350" height="345">
+                    </div>
+                </div>
+                <div class="col-md-8 para">
+                    <div class="panel">
+                        <p>
+                            <h3><strong>
+          Offer Valid on Monsoon Trip 25th July to 30th July 2016</strong></h3>
+                        </p>
+                        <p>
+                            In Kerala the monsoons sing a different song for each traveller. It is almost like the rains take special pains to ensure each visitor leaves the shores of God's Own Country with a happy heart. Add to that the fact that it is also the season for rejuvenation through ancient Ayurvedic practices and you have before you an experience worth a lifetime. The Dream Season holiday period in the state offers you diversified tourism products and services, customized travel packages. The accredited tour operators of Kerala tourism will help you to finalise your trip to Kerala ... Here the monsoon is not just a season. It is an experience. Come, live it!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="panel">
+                        <p>
+                            <h3><strong>
+            Upcoming Trips From 1st August to 30th September 2016</strong></h3>
+                        </p>
+                        <p>
+                            An animal sanctuary is a facility where animals are brought to live and be protected for the rest of their lives.[1] Unlike animal shelters, sanctuaries do not seek to place animals with individuals or groups, instead maintaining each animal until his or her natural death. In some cases, an establishment may have characteristics of both a sanctuary and a shelter; for instance, some animals may be in residence temporarily until a good home is found and others may be permanent residents. The mission of sanctuaries is generally to be safe havens, where the animals receive the best care that the sanctuaries can provide. Animals are not bought, sold, or traded, nor are they used for animal testing. The resident animals are given the opportunity to behave as natural as possible in a protective environment.[1] What distinguishes a sanctuary from other institutions is the philosophy that the residents come first. In a sanctuary, every action is scrutinized for any trace of human benefit at the expense of non-human residents. Sanctuaries act on behalf of the animals, and the caregivers work under the notion that all animals in the sanctuary, human and non-human, are of equal importance. A sanctuary is not open to the public in the sense of a zoo; that is, the public is not allowed unescorted access to any part of the facility. A sanctuary tries not to allow any activity that would place the animals in an unduly stressful situation. One of the most important missions of sanctuaries, beyond caring for the animals, is educating the public. The ultimate goal of many sanctuaries is to change the way that humans think of, and treat, non-human animals.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel">
+                        <img src="../Images/peacock.jpg" alt="Flower" width="350" height="345">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="panel-footer">Travel desk</div>
+                    <ul style="list-style-type:none">
+                        <li>Effective Planning</li>
+                        <li>Accommodation</li>
+                        <li>Restaurants</li>
+                    </ul>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="panel-footer">Experiences</div>
+                    <ul style="list-style-type:none">
+                        <li>Beaches</li>
+                        <li>Museums</li>
+                        <li>Wildlife</li>
+                    </ul>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="panel-footer">Other Info</div>
+                    <ul style="list-style-type:none">
+                        <li>Tourism Administrators</li>
+                        <li>Public Information Officer</li>
+                        <li>Announcements</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="panel-footer">Contact Us</div>
+                    <ul style="list-style-type:none">
+                        <li> <span class ="glyphicon glyphicon-phone-alt"><span>    Call 9999999999</li>
+                        <li>Support</li>
+                        <li>Reach us on <img src="../Images/twitter.jpg" width="20px" height="20px">&nbsp;<img src="../Images/facebook.jpg" width="20px" height="20px">&nbsp;<img src="../Images/gmail.jpg" width="20px" height="20px">
+                        </li>
+
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+        <!--- footer Navigation  -->
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-inverse" style="background-image:url(../Images/navbg.jpg)">
+                    <div class="navbar-header" >
+                        <a class="navbar-brand" href="#">For travel related requirements like accommodation, hotels, tour packages, transportation, and other travel related assistance please click here and njoy the vacation   <span class ="glyphicon glyphicon-sunglasses"></span> </a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
